@@ -1,11 +1,6 @@
-import time
 import random
 
 print("For cutter say (S)\nFor paper say (P)\nFor Stone say (R)")
-
-for i in range(3, 0, -1):
-    print(f"{i}")
-    time.sleep(1)
 
 a = input("Enter your guess: ").upper()
 
